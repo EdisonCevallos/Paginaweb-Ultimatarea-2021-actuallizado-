@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: #262626;
+}
+.botonre{
+  margin: 10px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 10px;
+  height: 100px;
+  font-weight: 500;
+  background: #00000073;
+  border-radius: 15px;
+  z-index: 10;
+
+}
+.botonregresar{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins';
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #f44611;
+}
+.fa-arrow-left{
+  margin: 10px;
+  font-size: 40px;
+}
+.mapBox{
+	display: flex;
+	margin-top: 30px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	bottom: 1px;
+	left: 2%;
+	width: 96%;
+	height: 600px;
+	background: #fff;
+}
+.mapBox iframe{
+	width: 100%;
+	height: 100%;
+}
+
