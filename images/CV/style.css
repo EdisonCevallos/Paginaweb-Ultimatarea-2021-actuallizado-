@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Bad+Script');
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(fondo.png);
+  background-size: cover;
+}
+.botonre{
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 10px;
+  height: 100px;
+  font-weight: 500;
+  background: #00000073;
+  border-radius: 15px;
+  z-index: 10;
+
+}
+.botonregresar{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins';
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #f44611;
+}
+
+.fa-arrow-left{
+  margin: 10px;
+  font-size: 40px;
+}
+.fondoregistro{
+  margin: 20px;
+  background: #00000047;
+  position: absolute;
+  top: 95px;
+  left: 13%;
+  width: 70%;
+  height: 500px;  
+  border-radius: 15px;
+}
+
+.box
+{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 700px;
+  height: 450px;
+  padding: 40px;
+  background: rgba(0,0,0,.8);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.5);
+  border-radius: 15px;
+}
+.box h2{
+  text-transform: uppercase;
+  font-family: 'Bad Script';
+  text-shadow: 0 0 10px rgba(255, 255, 255, 1),
+         0 0 20px rgba(255, 255, 255, 1),
+         0 0 40px rgba(255, 255, 255, 1),
+         0 0 80px rgba(255, 255, 255, 1);
+}
+.inputBox
+{
+  position: absolute;
+  margin: 0;
+  font-family: Poppins;
+  width: 40%;
+
+}
+.boton1{
+  position: absolute;
+  top: 99px;
+  left: 39px;
+}
+.boton2{
+  position: absolute; 
+  top: 98px;
+  left: 385px;
+}
+.boton3{
+  position: absolute;
+  top: 40%;
+  left: 39px;
+}
+.boton4{
+  position: absolute;
+  top: 40%;
+  left: 385px;
+}
+.boton5{
+  position: absolute;
+  top: 58%;
+  left: 39px;
+  width: 627px;
+
+}
+
+.registro{
+  position: absolute;
+  bottom: 12%;
+  left: 37%;
+}
+
+.box h2
+{
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.box .inputBox input
+{
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+.box .inputBox label
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 1px;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.box .inputBox input:focus ~ label,
+.box .inputBox input:valid ~ label
+{
+  top: -18px;
+  left: 0;
+  color: #f44611;
+  font-size: 12px
+}
+
+.box input[type="submit"]
+{
+  background: transparent;
+  position: relative;
+  left: 45px;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-family: Poppins;
+  text-transform: uppercase;
+  font-size: 14px;
+  background: #f44611;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+
+}
+
+
+.sm{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000000e6;
+}
+.sm a{
+  display: inline-block;
+  font-size: 40px;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  color: #f44611;
+  margin: 0 16px;
+  transition: .4s linear;
+  position: relative;
+}
+
+.sm a::before, .sm a::after{
+  content: '';
+  position: absolute;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  transition: .4s linear;*//*
+  <-- Más épico el de abajo -->
+  transition:.6s cubic-bezier(0.91, -0.03, 1, 1.5);*/
+}
+
+.sm a:hover{
+  transform: scale(.8);
+}
+
+.sm a:hover::before{
+  border-left: 4px solid;
+  border-right: 4px solid;
+  transform: skewX(20deg);
+}
+
+.sm a:hover::after{
+  border-top: 4px solid;
+  border-bottom: 4px solid;
+  transform: skewY(-20deg);
+}
